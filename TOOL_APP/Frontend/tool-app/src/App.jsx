@@ -10,7 +10,7 @@ function App() {
     { path: "/", element: <LandingPage /> },
     { path: "/login", element: <Login /> },
     { path: "/signUp", element: <SignUp /> },
-    {path:"/dashboard",element:<Dashboard/>}
+    {path:"/dashboard",element: <h1>Dashboard</h1>}
   ]);
 
   return (
