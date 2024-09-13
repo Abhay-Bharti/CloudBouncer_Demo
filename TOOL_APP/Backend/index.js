@@ -160,7 +160,7 @@ app.get("/get-user", authenticate, async (req, res) => {
 
 
 //app is listening on port 8000.
-app.listen(port, () => {
+app.listen(port || process.env.PORT, () => {
     console.log(`Server is running on port ${port}`);
 })
 
